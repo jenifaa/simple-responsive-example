@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Example</title>
+    <style>
+        .container{
+            display: flex;
+            gap: 20px;
+        }
+        .container2{
+            display: flex;
+            gap: 20px;
+        }
+        .content{
+            padding: 30px;
+        }
+        @media screen and (max-width: 576px){
+            .container{
+                flex-direction: column;
+            }
+            .container2{
+                flex-direction: column-reverse;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div><img src="images/lion1.jpg" alt=""></div>
+        <div class="content">
+            <h2>How Lion works</h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore itaque quo autem quia nihil deserunt, minima impedit. Asperiores eius sit earum dolor unde, velit excepturi voluptatum. Dolorem harum ex nulla, nobis facere aspernatur nesciunt molestias velit delectus officiis alias sunt, quisquam, ullam consequatur debitis. Debitis animi adipisci ab praesentium voluptatum.</p>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="content">
+            <h2>What is it?</h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure molestiae assumenda eius accusantium saepe optio quas et! Exercitationem, possimus nam ad sed tenetur soluta quis quae nobis dolorum sapiente vitae, inventore in ea blanditiis, praesentium assumenda repellendus vero debitis nihil ut quo ex dolorem. Iste sapiente necessitatibus quos animi? Ducimus!</p>
+        </div>
+        <div><img src="images/lion2.jpg" alt=""></div>
+    </div>
+
+</body>
+</html>
